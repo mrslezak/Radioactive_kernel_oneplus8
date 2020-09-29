@@ -146,3 +146,18 @@ kernel/configs/android-*.cfg
 
 # OP SLA feature
 #opslalib/slalib
+
+*.rej
+*.diff
+*.patch
+*.list
+
+# Kernel compilation output directory
+out/
+
+# Wireguard
+net/wireguard/
+
+# Build script and changelog generator
+build.sh
+changelog.sh
