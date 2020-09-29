@@ -211,7 +211,7 @@ config SLA
 	  If unsure, say n.
 
 config SLA_ALGO
-	bool "OnePlus SLA algorithm"
+	bool "op algo"
 	default n
 	help
 	  Realtime netlink traffic monitor.
