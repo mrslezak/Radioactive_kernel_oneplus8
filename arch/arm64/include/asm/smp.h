@@ -78,7 +78,7 @@ extern void (*__smp_cross_call)(const struct cpumask *, unsigned int);
 extern void set_update_ipi_history_callback(void (*fn)(int));
 
 /*
-* Called from the secondary holding pen, this is the secondary CPU entry point.
+ * Called from the secondary holding pen, this is the secondary CPU entry point.
  */
 asmlinkage void secondary_start_kernel(void);
 
