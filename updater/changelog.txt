@@ -1,0 +1,13 @@
+Project name: Radioactive_kernel_oneplus8Series-V2.1.6
+  * qseecom: Add boundary checks between two subsequent fields (Nitin LNU) [fdb66a526112]
+  * arm64: fix bootloader_memory_limit (Srinivasarao P) [6a6d01131f5b]
+  * bq27541: Return -ENODATA when DASH charging (LuK1337) [68e785b44c07]
+  * net/sched: Shut up (celtare21) [22f7a1e1dd00]
+  * GKI: hwtracing: Add a driver for disabling coresight clocks (J. Avila) [cacf6e0d5e68]
+  * Synchronize codes for OnePlus 8T Oxygen OS 11.0.8.11.KB05AA and OnePlus 8 Oxygen OS 11.0.5.5.IN21AA and OnePlus 8 Pro Oxygen OS 11.0.5.5.IN11AA (yu.huang) [d9a92ce977ea]
+  * arch: Kconfig: enable CONFIG_RELR by default (Kristof Petho) [b537c28d50f0]
+  * defconfig: disable IPC_LOGGING (Kristof Petho) [a61309a5574b]
+  * defconfig: enable JUMP_LABEL (Kristof Petho) [7aa08d410998]
+  * BACKPORT: arm64: vdso: Explicitly add build-id option (Laura Abbott) [18d3bf8321d5]
+  * BACKPORT: arm64: vdso: use $(LD) instead of $(CC) to link VDSO (Masahiro Yamada) [ca50bc02d013]
+  * UPSTREAM: arm64: vdso: fix and clean-up Makefile (Masahiro Yamada) [21d290615495]
