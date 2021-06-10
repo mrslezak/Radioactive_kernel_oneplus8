@@ -77,7 +77,7 @@ KBUILD_CPPFLAGS += $(CDEFINES)
 # is disabling the maybe-uninitialized warning.  Re-enable it for the
 # AUDIO driver.  Note that we must use EXTRA_CFLAGS here so that it
 # will override the kernel settings.
-ifeq ($(call cc-option-yn, -Wmaybe-uninitialized),y)
+# ifeq ($(call cc-option-yn, -Wmaybe-uninitialized),y)
 #EXTRA_CFLAGS += -Wmaybe-uninitialized
 #ccflags-y += -Wmaybe-uninitialized
 #endif
