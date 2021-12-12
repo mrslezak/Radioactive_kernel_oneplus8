@@ -185,7 +185,7 @@ Image.gz-dtb: vmlinux scripts dtbs Image.gz
 
 ifeq ($(CONFIG_BUILD_ARM64_DT_OVERLAY),y)
 $(KBUILD_DTBO_IMG): dtbs
-	$(Q)$(MAKE) $(build)=$(boot) $(boot)/$@
+	
 
 all: $(KBUILD_DTBO_IMG)
 endif
